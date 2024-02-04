@@ -20,4 +20,3 @@ response = ec2_console.terminate_instances(
 )
 
 print(response)
-print(response)
