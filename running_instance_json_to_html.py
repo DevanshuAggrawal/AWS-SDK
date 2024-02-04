@@ -22,14 +22,6 @@ print(response)
 response = ec2_console.describe_instance_status()
 print(response)
 
-print(type(response))
-
-newlist=[]
-
-for i in response['InstanceStatuses']:
-    newlist.append(i['InstanceId'])
-    print("Instance ID Created is :{}".format(i['InstanceId']))
-
 
 
 
